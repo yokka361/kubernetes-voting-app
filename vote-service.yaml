@@ -1,0 +1,15 @@
+apiVersion: v1
+kind: Service
+metadata:
+  name: vote
+  labels:
+    app: vote
+spec:
+  type: NodePort
+  ports:
+    - name: "vote-service"
+      port: 80  # what port service is listening on
+      targetPort: 80   # WAHT PORT TO FWD -  what port is vote pod listening on
+      nodePort: 31000
+  selector:
+    app: vote  #to what pods to fwd
