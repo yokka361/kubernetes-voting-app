@@ -10,6 +10,19 @@ This project demonstrates how to deploy a microservices-based voting application
 * **redis:** In-memory queue for collecting raw votes.
 * **db:** PostgreSQL database for storing tallied votes.
 
+
+> ⚡ All services use official Docker images from the respective technology stacks (Python/Flask, Node.js, .NET, Redis, PostgreSQL) unless otherwise specified.
+
+## 🐳 Images Used
+
+| Component | Docker Image |
+|-----------|--------------|
+| vote      | dockersamples/examplevotingapp_vote |
+| result    | dockersamples/examplevotingapp_result |
+| worker    | dockersamples/examplevotingapp_worker |
+| redis     | redis:alpine |
+| db        | postgres:15-alpine |
+
 ---
 
 ## Folder Structure
