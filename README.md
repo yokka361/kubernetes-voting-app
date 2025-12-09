@@ -120,6 +120,26 @@ kubectl exec -it <pod-name> -- /bin/bash
 
 ---
 
+## 📸 Architecture & UI Screenshots
+
+<p align="center">
+  <img src="Screenshots/all-components.png" width="500"><br>
+  <b>All Components</b>
+</p>
+
+<p align="center">
+  <img src="Screenshots/urls-for-frontend.png" width="500"><br>
+  <b>Frontend URLs</b>
+</p>
+
+
+<p align="center">
+  <img src="Screenshots/frontend.png" width="500"><br>
+  <b>Frontend Architecture</b>
+</p>
+
+
+
 ## References
 * [Kubernetes Official Docs](https://kubernetes.io/docs/home/)
-* [Example Voting App Repository](https://github.com/dockersamples/example-voting-app)
+* [Kubernetes for the Absolute Beginners with Hands-on Labs Course](https://www.coursera.org/learn/kubernetes-for-absolute-beginners/home/welcome)
