@@ -46,22 +46,17 @@ Copy the code blocks into their respective files.
     minikube start
     ```
 
-2.  **Navigate to your project folder:**
-    ```bash
-    cd voting-app-deployments
-    ```
-
-3.  **Apply all YAML files:**
+2.  **Apply all YAML files:**
     ```bash
     kubectl apply -f .
     ```
 
-4.  **Check the status:**
+3.  **Check the status:**
     ```bash
     kubectl get all
     ```
 
-5.  **Access the application:**
+4.  **Access the application:**
     ```bash
     minikube service vote --url
     minikube service result --url
